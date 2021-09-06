@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title="Account Datatable">
+        <div id="conteiner">
+            <div 
+                class="slds-box slds-theme_shade" 
+                if:true={overLay}>
+            </div>
+            <div style="height: 300px;">
+                <lightning-datatable
+                    class="edit-icon"
+                    key-field="Id"
+                    data={account.data}
+                    columns={columns}
+                    hide-checkbox-column="true"
+                    onrowaction={handleRowAction}
+                    onsave={handleSave}
+                    oncancel={handleCancel}
+                    draft-values={draftValues}
+                    oncellchange={cellChange}>
+                </lightning-datatable>
+            </div>
+        </div>
+    </lightning-card>
+</template>
