@@ -15,60 +15,60 @@
 
 **1** Создал в VS lwc, в html и js файле написал таблицу:
 ![html](https://github.com/aap-m/TI_task_4/blob/main/1.png)
-![js](https://prnt.sc/1rlhzl0)
+![js](https://github.com/aap-m/TI_task_4/blob/main/2.png)
 Сделал контроллер по требуемым филдам:
-![Apex](https://prnt.sc/1rli0xa)
+![Apex](https://github.com/aap-m/TI_task_4/blob/main/3.png)
 **2** Добавил кнопку Delete:
-![js](https://prnt.sc/1rli292)
+![js](https://github.com/aap-m/TI_task_4/blob/main/4.png)
 Указал размещение кнопки по центру колонки.
 ***2.2*** Добавил метод удаления аккаунта по нажатию кнопки detele и всплывающие окна:
-![js](https://prnt.sc/1rli66d)
+![js](https://github.com/aap-m/TI_task_4/blob/main/5.png)
 **3** Добавил кнопки edit в столбцы
-![js](https://prnt.sc/1rli76m)
+![js](https://github.com/aap-m/TI_task_4/blob/main/6.png)
 ***3.1*** Добивил СSS в котором указал изменение кнопки edit за счет opacity:
-![css](https://prnt.sc/1rli83q)
+![css](https://github.com/aap-m/TI_task_4/blob/main/7.png)
 ***3.2*** Добавил метод редактирования:
-![js](https://prnt.sc/1rli9ae)
+![js](https://github.com/aap-m/TI_task_4/blob/main/8.png)
 Блокировку элементов таблицы реализовал через элемент slds-box, который накладывается на таблицу при редактировании ячейки через oncellchange:
-![all](https://prnt.sc/1rli9x9) 
+![all](https://github.com/aap-m/TI_task_4/blob/main/9.png) 
 ***3.3*** При нажатии кнопки Save происходит обновление данных таблицы убирается slds-box блокирующий редактирование ячеек таблицы:
-![js](https://prnt.sc/1rliauh)
+![js](https://github.com/aap-m/TI_task_4/blob/main/10.png)
 **4** ***4.1*** При нажатии на cancel сбрасывается draftValues и убирается slds-box блокирующий редактирование ячеек таблицы:
-![js](https://prnt.sc/1rlibht)
+![js](https://github.com/aap-m/TI_task_4/blob/main/11.png)
 ***4.2*** Реализуется за счет использования <lightning-datatable>.
 ***4.4*** Прописаны всплывающие окна по факту успешного или неуспешного редактирования ячеек:
-![js](https://prnt.sc/1rlick0)
+![js](https://github.com/aap-m/TI_task_4/blob/main/12.png)
 
 
 ***Ошибки:***
 ***1*** Ошибка в написании слова :
-![js](https://prnt.sc/1rlil8a)
+![js](https://github.com/aap-m/TI_task_4/blob/main/13.png)
 Исправление:
-![js](https://prnt.sc/1rlimsc)
+![js](https://github.com/aap-m/TI_task_4/blob/main/14.png)
 Описка при написании кода.
 ***2*** Отсутствует лимит в сокл запросе
-![Apex](https://prnt.sc/1rlio7q)
+![Apex](https://github.com/aap-m/TI_task_4/blob/main/15.png)
 Исправление:
-![Apex](https://prnt.sc/1rliom3)
+![Apex](https://github.com/aap-m/TI_task_4/blob/main/16.png)
 Сознательно не ставил лимит на запрос т.к. в песочнице их меньше 15.
 ***3***	Указал лишний класс:
-![css](https://prnt.sc/1rlip30)
+![css](https://github.com/aap-m/TI_task_4/blob/main/17.png)
 Исправление:
-![css](https://prnt.sc/1rlipbc)
+![css](https://github.com/aap-m/TI_task_4/blob/main/18.png)
 ***4***	Отсутствует .cach  в deliteRecord
-![js](https://prnt.sc/1rliq2q)
+![js](https://github.com/aap-m/TI_task_4/blob/main/19.png)
 Исправление:
-![js](https://prnt.sc/1rliqdt)
+![js](https://github.com/aap-m/TI_task_4/blob/main/20.png)
 ***5***	Сонсоли в коллбэке
-![js](https://prnt.sc/1rliqph)
+![js](https://github.com/aap-m/TI_task_4/blob/main/21.png)
 Исправление:
-![js](https://prnt.sc/1rliqwq)
+![js](https://github.com/aap-m/TI_task_4/blob/main/22.png)
 ***6*** Указал в html style:
-![html](https://prnt.sc/1rlisuw)
+![html](https://github.com/aap-m/TI_task_4/blob/main/23.png)
 Исправление:
-![html](https://prnt.sc/1rlit4b)
-![html](https://prnt.sc/1rlitl3)
+![html](https://github.com/aap-m/TI_task_4/blob/main/24.png)
+![html](https://github.com/aap-m/TI_task_4/blob/main/25.png)
 ***7***	Нэйминг
-![all](https://prnt.sc/1rliu79)
+![all](https://github.com/aap-m/TI_task_4/blob/main/26.png)
 Исправление:
-![all](https://prnt.sc/1rliuor)
+![all](https://github.com/aap-m/TI_task_4/blob/main/27.png)
